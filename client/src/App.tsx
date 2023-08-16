@@ -3,6 +3,7 @@ import * as THREE from 'three';
 import SpaceSky, {
   Scene
 } from "./components/Three.tsx";
+import CustomCursor from './components/cursor.tsx';
 
 import { Canvas } from "@react-three/fiber";
 import { Experience } from "./components/Experience";
@@ -12,6 +13,7 @@ export function App() {
     <>
     <a className="wide">BADR BENCH</a>
     <SpaceSky/>
+    <CustomCursor />
     </>
   );
 }
