@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,25 @@
 html {
   background-color:black;
   color:white;
+}
+
+.wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-weight: 10%;
+  font-size:500%;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 9999;
 }
